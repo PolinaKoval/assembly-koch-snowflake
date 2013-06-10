@@ -409,9 +409,9 @@ code segment
 		fist word ptr ds:[sc]					;wspolrzedna y do DX.
 		mov dx,ds:[sc]
 		
-		cmp cx,320d					;nie rysuj poza ekranem.
+		cmp cx,319d					;nie rysuj poza ekranem.
 		JA noscreen
-		cmp dx,200d
+		cmp dx,199d
 		JA noscreen
 		
 		mov al,12
