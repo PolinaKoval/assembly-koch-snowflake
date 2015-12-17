@@ -1,0 +1,1 @@
+Program graficzny, na wejściu parametry iternum oraz len określające głębokość iteracji l-systemu oraz długość pojedynczej prostej.
